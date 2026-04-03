@@ -9,7 +9,7 @@ public class FactorialNumber {
         return fact;
     }
 
-   public static void main(String[] args) {
+   static void main(String[] args) {
         int n = 5;
         System.out.println(factorial(n));
     }
