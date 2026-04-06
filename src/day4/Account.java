@@ -34,6 +34,7 @@ public class Account {
   Account myAcc = new Account(1000);
      myAcc.deposit(500);
      myAcc.withdraw(200);
+     myAcc.balance = -5000;
         System.out.println(myAcc.getBalance());
     }
 }
