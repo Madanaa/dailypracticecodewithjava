@@ -14,6 +14,6 @@ public class CheckAlphabetDigitSpecialChar {
     }
 
     static void main() {
-        checkAlphabetDigitSpecialChar('a');
+        checkAlphabetDigitSpecialChar('#');
     }
 }
