@@ -5,7 +5,7 @@ public class ThreeNumberFindLargestNumber {
         if(a >= b && a >= c) {
             System.out.println("Largest Number is: "+a);
         }
-        else if(b >= a && b >= c) {
+        else if(b >= c) {
             System.out.println("Largest Number is: " +b);
         }
         else {
@@ -14,6 +14,6 @@ public class ThreeNumberFindLargestNumber {
     }
 
     static void main() {
-        findLargestNumber(2,6,9);
+        findLargestNumber(9,12,9);
     }
 }
