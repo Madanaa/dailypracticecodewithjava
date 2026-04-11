@@ -3,7 +3,7 @@ package day9;
 public class FindGCDAndLCM {
     public static int findGCD(int a, int b) {
         while(b != 0) {
-            int tamp = +a % b;
+            int tamp = a % b;
             a = b;
             b = tamp;
         }
