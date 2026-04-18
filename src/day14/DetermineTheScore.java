@@ -2,8 +2,7 @@ package day14;
 
 public class DetermineTheScore {
     public static int getScore(int x, int n) {
-        int score = n * x/10;
-        return score;
+        return n * x/10;
     }
 
     static void main() {
