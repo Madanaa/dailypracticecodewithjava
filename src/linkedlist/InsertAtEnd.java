@@ -23,4 +23,18 @@ public class InsertAtEnd {
         }
         temp.next = newNode;
     }
+    public void display(){
+        Node temp = head;
+        while (temp != null){
+            System.out.println(temp.data+" ");
+            temp = temp.next;
+        }
+    }
+
+    static void main() {
+   InsertAtEnd list = new InsertAtEnd();
+   list.insertAtEnd(20);
+   list.insertAtEnd(50);
+   list.display();
+    }
 }
