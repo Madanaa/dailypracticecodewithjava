@@ -24,5 +24,26 @@ public class DoublyLinkedList {
         newNode.prev = tail;
         tail = newNode;
     }
+    public void display(){
+        Node curr = head;
+        while (curr != null){
+            System.out.print(curr.data + " ");
+            curr = curr.next;
+        }
+    }
 
+
+    static void main() {
+        DoublyLinkedList dll = new DoublyLinkedList();
+        dll.insertAtEnd(1);
+        dll.insertAtEnd(2);
+        dll.insertAtEnd(3);
+        dll.insertAtEnd(4);
+        dll.insertAtEnd(6);
+        dll.insertAtEnd(7);
+        dll.insertAtEnd(100);
+        dll.display();
+        System.out.println();
+
+    }
 }
