@@ -16,4 +16,8 @@ public class AngramString {
         }
       return new ArrayList<>(ans.values());
     }
+
+    static void main() {
+
+    }
 }
